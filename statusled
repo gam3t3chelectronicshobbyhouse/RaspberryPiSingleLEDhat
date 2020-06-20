@@ -1,0 +1,14 @@
+Terminal commands:
+
+cd /boot
+sudo nano config.tx
+
+scroll to the bottom and enter:
+
+#use external LED as SD ACT LED
+dtoverlay=pi3-act-led,gpio=18
+
+
+If doing this project on any other board then you will have to
+change the gpio port if not using gpio 18.
+
