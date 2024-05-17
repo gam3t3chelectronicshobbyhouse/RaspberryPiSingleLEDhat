@@ -1,7 +1,7 @@
 Terminal commands:
 
-cd /boot
-sudo nano config.tx
+cd /boot/firmware
+sudo nano config.txt
 
 scroll to the bottom and enter:
 
